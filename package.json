@@ -9,7 +9,13 @@
     "distributed",
     "authority"
   ],
-  "samples": [],
+  "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "The networked XRInteractionToolkit StarterAssets sample scene.",
+      "path": "Samples~/DemoScene"
+    }
+  ],
   "author": {
     "name": "Kevin Castejon",
     "url": "https://www.kevincastejon.fr",
