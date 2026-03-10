@@ -1,0 +1,23 @@
+{
+  "name": "com.caskev.netcode.xrinteractiontoolkit",
+  "version": "0.1.0",
+  "displayName": "Netcode For XRInteractionToolkit",
+  "description": "Suit of components binding XRInteractionToolkit based components with NetcodeForGameobjects-DistributedAuthority based components, in order to make multiplayer XR interactions easier, more reliable and more confortable because of prediction.",
+  "keywords": [
+    "netcode",
+    "ngo",
+    "distributed",
+    "authority"
+  ],
+  "samples": [],
+  "author": {
+    "name": "Kevin Castejon",
+    "url": "https://www.kevincastejon.fr",
+    "email": "kevincastejon@gmail.com"
+  },
+  "dependencies": {
+    "com.unity.netcode.gameobjects": "2.10.0",
+    "com.caskev.netcode.gameobjects.distributed.authority": "0.1.0",
+    "com.unity.ugui": "2.0.0"
+  }
+}
