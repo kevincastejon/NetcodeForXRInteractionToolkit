@@ -198,7 +198,7 @@ MonoBehaviour:
         animationStateEndValue: {r: 0, g: 0, b: 0, a: 0}
       m_ColorBlendMode: 0
       m_BlendAmount: 1
-    m_Variable: {fileID: 11400000, guid: 8b0b5aede76faac438e02d2a468f4805, type: 2}
+    m_Variable: {fileID: 11400000, guid: 42acd23b053687145ad775892d078d42, type: 2}
   m_ValueUpdated:
     m_PersistentCalls:
       m_Calls: []
@@ -270,7 +270,7 @@ MonoBehaviour:
       - stateName: focused
         animationStateStartValue: 0
         animationStateEndValue: 0
-    m_Variable: {fileID: 11400000, guid: 795305341a8dbbd46ae54e9a01d6ea95, type: 2}
+    m_Variable: {fileID: 11400000, guid: 6838e0a3447858f40999d429e069c431, type: 2}
   m_ValueUpdated:
     m_PersistentCalls:
       m_Calls: []

@@ -1,6 +1,7 @@
+using UnityEngine;
 using UnityEngine.UI;
 
-namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+namespace Caskev.NetcodeForXRInteractionToolkitSamples.DemoScene
 {
     /// <summary>
     /// Updates the normal color of a toggle based on the state of the toggle.

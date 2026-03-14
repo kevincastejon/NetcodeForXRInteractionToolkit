@@ -1,12 +1,14 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
+
 
 #if UNITY_ANDROID
 using UnityEngine.Android;
 #endif
 using UnityEngine.Events;
 
-namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+namespace Caskev.NetcodeForXRInteractionToolkitSamples.DemoScene
 {
     /// <summary>
     /// Utility class to help define and manage Android device permissions and specify corresponding permission callbacks via <see cref="UnityEvent"/>.

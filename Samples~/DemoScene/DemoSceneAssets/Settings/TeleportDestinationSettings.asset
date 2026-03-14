@@ -19,4 +19,4 @@ MonoBehaviour:
     m_DestinationEvaluationDelayTime: 1.5
     m_PollForDestinationChange: 1
     m_DestinationPollFrequency: 1
-    m_DestinationFilterObject: {fileID: 11400000, guid: 14af1242b4be8e2458dd5bee35c06ae5, type: 2}
+    m_DestinationFilterObject: {fileID: 11400000, guid: d41454e626bb0fd4d898256051489846, type: 2}

@@ -166,7 +166,7 @@ MonoBehaviour:
         animationStateEndValue: {r: 0, g: 0, b: 0, a: 0}
       m_ColorBlendMode: 0
       m_BlendAmount: 1
-    m_Variable: {fileID: 11400000, guid: fc690d1505c48cb4696838b71abd2ca0, type: 2}
+    m_Variable: {fileID: 11400000, guid: 15b4475c4b645b74390959a2708724dd, type: 2}
   m_ValueUpdated:
     m_PersistentCalls:
       m_Calls: []
@@ -338,7 +338,7 @@ MonoBehaviour:
         animationStateEndValue: {r: 0, g: 0, b: 0, a: 0}
       m_ColorBlendMode: 0
       m_BlendAmount: 1
-    m_Variable: {fileID: 11400000, guid: fc690d1505c48cb4696838b71abd2ca0, type: 2}
+    m_Variable: {fileID: 11400000, guid: 15b4475c4b645b74390959a2708724dd, type: 2}
   m_ValueUpdated:
     m_PersistentCalls:
       m_Calls: []

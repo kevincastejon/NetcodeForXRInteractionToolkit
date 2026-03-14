@@ -1,10 +1,12 @@
 using UnityEngine.Rendering;
 using System.Collections.Generic;
+using UnityEngine;
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
 
-namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+namespace Caskev.NetcodeForXRInteractionToolkitSamples.DemoScene
 {
 #if UNITY_EDITOR
     [InitializeOnLoad]
@@ -221,7 +223,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
     /// Custom editor MaterialPipelineHandler
     /// </summary>
     [CustomEditor(typeof(MaterialPipelineHandler)), CanEditMultipleObjects]
-    public class MaterialPipelineHandlerEditor : Editor
+    public class MaterialPipelineHandlerEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {

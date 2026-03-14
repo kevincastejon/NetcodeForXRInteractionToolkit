@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using Unity.Netcode.Transports.UTP;
 using Unity.Netcode;
 using UnityEngine;
@@ -9,7 +8,7 @@ using System;
 namespace Caskev.NetcodeForXRInteractionToolkitSamples.DemoScene
 {
 
-    public class GameManager : NetworkBehaviour
+    public class GameManager : MonoBehaviour
     {
         [SerializeField] private NetworkManager _networkManager;
         [SerializeField] private UnityTransport _transport;

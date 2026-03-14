@@ -9,32 +9,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7883133e628dff4a86f50c082f77055, type: 3}
+  m_Script: {fileID: 11500000, guid: 50d2d15e69cbc0b409ef6e541cbc566a, type: 3}
   m_Name: MaterialPipelineHandler
   m_EditorClassIdentifier: 
   m_ShaderContainers:
-  - material: {fileID: 2100000, guid: bbb56ac3cf3c61a46ab3887c0fdbda8f, type: 2}
+  - material: {fileID: 2100000, guid: 5183c5a835bd36b41b46a0e4fd1bc186, type: 2}
     useSRPShaderName: 1
     scriptableRenderPipelineShaderName: Universal Render Pipeline/Lit
     scriptableRenderPipelineShader: {fileID: 0}
     useBuiltinShaderName: 1
     builtInPipelineShaderName: Standard
     builtInPipelineShader: {fileID: 0}
-  - material: {fileID: 2100000, guid: 842f1b88643f1bb458ba6243088e344e, type: 2}
+  - material: {fileID: 2100000, guid: d36b929482086e3449edec620fae6cba, type: 2}
     useSRPShaderName: 1
     scriptableRenderPipelineShaderName: Universal Render Pipeline/Lit
     scriptableRenderPipelineShader: {fileID: 0}
     useBuiltinShaderName: 1
     builtInPipelineShaderName: Standard
     builtInPipelineShader: {fileID: 0}
-  - material: {fileID: 2100000, guid: 830d28b607e09a2479e2005c2eb5c75e, type: 2}
+  - material: {fileID: 2100000, guid: 92f45ecaf78f80d47ad9993dced73ad6, type: 2}
     useSRPShaderName: 1
     scriptableRenderPipelineShaderName: Universal Render Pipeline/Lit
     scriptableRenderPipelineShader: {fileID: 0}
     useBuiltinShaderName: 1
     builtInPipelineShaderName: Standard
     builtInPipelineShader: {fileID: 0}
-  - material: {fileID: 2100000, guid: fc226930e8fad4c499969204cecfbc05, type: 2}
+  - material: {fileID: 2100000, guid: 61a9dc6ba417b0e4887a1849c974bc15, type: 2}
     useSRPShaderName: 1
     scriptableRenderPipelineShaderName: Universal Render Pipeline/Simple Lit
     scriptableRenderPipelineShader: {fileID: 0}

@@ -1,10 +1,12 @@
 using System;
+using UnityEngine;
+
 
 #if OPENXR_1_6_OR_NEWER
 using UnityEngine.XR.OpenXR;
 #endif
 
-namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+namespace Caskev.NetcodeForXRInteractionToolkitSamples.DemoScene
 {
     /// <summary>
     /// Enumeration of supported XR Platforms for OpenXR.

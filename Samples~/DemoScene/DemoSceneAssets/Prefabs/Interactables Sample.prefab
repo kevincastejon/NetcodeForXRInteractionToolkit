@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060243933316379515}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,68 +33,651 @@ Transform:
   - {fileID: 5178052650083227069}
   - {fileID: 1084091470699946729}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &428719407853335821
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 2991896912978869755}
     m_Modifications:
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 1260494564870263790, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+      propertyPath: m_InteractableSource
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: -0.847
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4769098102207602867, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769098102207602867, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
       propertyPath: m_Name
       value: Interactable Instant Cylinder
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+    - target: {fileID: 5989527094017703538, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4769098102207602865, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4769098102207602867, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8462045317307662605}
+    - targetCorrespondingSourceObject: {fileID: 4769098102207602867, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 526261544927694571}
+    - targetCorrespondingSourceObject: {fileID: 4769098102207602867, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3491868817809410778}
+  m_SourcePrefab: {fileID: 100100000, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
 --- !u!4 &5178052650083227069 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4769098102207602864, guid: 2ed984a58a974166bf92c82a74380454, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4769098102207602864, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+  m_PrefabInstance: {fileID: 428719407853335821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5178052650083227070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4769098102207602867, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
+  m_PrefabInstance: {fileID: 428719407853335821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8462045317307662605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178052650083227070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1f68202d5742542b338710df452d6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Caskev.NetcodeForXRInteractionToolkit.Runtime::Caskev.NetcodeForXRInteractionToolkit.XRGrabInteractableNetworkCompliant
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_AttachTransform: {fileID: 0}
+  m_SecondaryAttachTransform: {fileID: 0}
+  m_UseDynamicAttach: 0
+  m_MatchAttachPosition: 1
+  m_MatchAttachRotation: 1
+  m_SnapToColliderVolume: 1
+  m_ReinitializeDynamicAttachEverySingleGrab: 1
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_PredictedVisualsTransform: {fileID: 8263645512151461891}
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 8
+  m_TightenPosition: 0.1
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 8
+  m_TightenRotation: 0.1
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_StartingSingleGrabTransformers: []
+  m_StartingMultipleGrabTransformers: []
+  m_AddDefaultGrabTransformers: 1
+  m_FarAttachMode: 0
+  m_LimitLinearVelocity: 0
+  m_LimitAngularVelocity: 0
+  m_MaxLinearVelocityDelta: 10
+  m_MaxAngularVelocityDelta: 20
+--- !u!114 &526261544927694571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178052650083227070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 3845421014
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &3491868817809410778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178052650083227070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ec72c5004392440bc149258d927d1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Caskev.NetcodeForXRInteractionToolkit.Runtime::Caskev.NetcodeForXRInteractionToolkit.DistributedNetworkXRGrabInteractable
+  ShowTopMostFoldoutHeaderGroup: 1
+  _currentState: 0
+  _ownershipLockingOnGainPolicy: 0
+  _statesEvents:
+    _onStateChanged:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterNone:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitNone:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterAuthority:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitAuthority:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterRemote:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitRemote:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterRequesting:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitRequesting:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterDeclining:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitDeclining:
+      m_PersistentCalls:
+        m_Calls: []
+  _ownershipEvents:
+    _events:
+      _crossSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _clientSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _serverSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+    _localEvents:
+      _crossSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _clientSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _serverSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+    _remoteEvents:
+      _crossSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _clientSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _serverSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+  _debugParameters:
+    _statesVerbose: 0
+    _ownershipVerbose: 0
+  _lockOwnershipOnTwoHandsGrabbing: 0
+  _activationChangeEvents:
+    _crossSideEvents:
+      _onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    _serverSideEvents:
+      _onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    _clientSideEvents:
+      _onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+  _activatedEvents:
+    _crossSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _serverSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _clientSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+  _deactivatedEvents:
+    _crossSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _serverSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _clientSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+  _automaticallyDeclineOnAsleep: 0
+  _onAsleep:
+    m_PersistentCalls:
+      m_Calls: []
+  _onAwake:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &8263645512151461891 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8601105390305805582, guid: 24939f1e9f482134bb5de5dde3dea878, type: 3}
   m_PrefabInstance: {fileID: 428719407853335821}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3698941267983243190
@@ -101,61 +685,629 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 2991896912978869755}
     m_Modifications:
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 741371062502573822, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
+      propertyPath: m_InteractableSource
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569311851364831330, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.525
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7517549319329480230, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    - target: {fileID: 7517549319329480230, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
       propertyPath: m_Name
       value: Interactable Kinematic Torus
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+    m_RemovedComponents:
+    - {fileID: 7517549319329480228, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7517549319329480230, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1150802128201682365}
+    - targetCorrespondingSourceObject: {fileID: 7517549319329480230, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2133897226484891207}
+    - targetCorrespondingSourceObject: {fileID: 7517549319329480230, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8621414387309561241}
+  m_SourcePrefab: {fileID: 100100000, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
+--- !u!1 &6559198441471240592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7517549319329480230, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
+  m_PrefabInstance: {fileID: 3698941267983243190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1150802128201682365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6559198441471240592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1f68202d5742542b338710df452d6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Caskev.NetcodeForXRInteractionToolkit.Runtime::Caskev.NetcodeForXRInteractionToolkit.XRGrabInteractableNetworkCompliant
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_AttachTransform: {fileID: 0}
+  m_SecondaryAttachTransform: {fileID: 0}
+  m_UseDynamicAttach: 0
+  m_MatchAttachPosition: 1
+  m_MatchAttachRotation: 1
+  m_SnapToColliderVolume: 1
+  m_ReinitializeDynamicAttachEverySingleGrab: 1
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_PredictedVisualsTransform: {fileID: 7724753066726505982}
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 8
+  m_TightenPosition: 0.1
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 8
+  m_TightenRotation: 0.1
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_StartingSingleGrabTransformers: []
+  m_StartingMultipleGrabTransformers: []
+  m_AddDefaultGrabTransformers: 1
+  m_FarAttachMode: 0
+  m_LimitLinearVelocity: 0
+  m_LimitAngularVelocity: 0
+  m_MaxLinearVelocityDelta: 10
+  m_MaxAngularVelocityDelta: 20
+--- !u!114 &2133897226484891207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6559198441471240592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 972003257
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &8621414387309561241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6559198441471240592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ec72c5004392440bc149258d927d1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Caskev.NetcodeForXRInteractionToolkit.Runtime::Caskev.NetcodeForXRInteractionToolkit.DistributedNetworkXRGrabInteractable
+  ShowTopMostFoldoutHeaderGroup: 1
+  _currentState: 0
+  _ownershipLockingOnGainPolicy: 0
+  _statesEvents:
+    _onStateChanged:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterNone:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitNone:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterAuthority:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitAuthority:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterRemote:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitRemote:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterRequesting:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitRequesting:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterDeclining:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitDeclining:
+      m_PersistentCalls:
+        m_Calls: []
+  _ownershipEvents:
+    _events:
+      _crossSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _clientSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _serverSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+    _localEvents:
+      _crossSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _clientSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _serverSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+    _remoteEvents:
+      _crossSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _clientSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _serverSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+  _debugParameters:
+    _statesVerbose: 0
+    _ownershipVerbose: 0
+  _lockOwnershipOnTwoHandsGrabbing: 0
+  _activationChangeEvents:
+    _crossSideEvents:
+      _onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    _serverSideEvents:
+      _onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    _clientSideEvents:
+      _onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+  _activatedEvents:
+    _crossSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _serverSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _clientSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+  _deactivatedEvents:
+    _crossSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _serverSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _clientSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+  _automaticallyDeclineOnAsleep: 0
+  _onAsleep:
+    m_PersistentCalls:
+      m_Calls: []
+  _onAwake:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &6559198441471240595 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 7517549319329480229, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7517549319329480229, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
+  m_PrefabInstance: {fileID: 3698941267983243190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7724753066726505982 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6369939804988844616, guid: 79ba1d9521760684889c9f500e85ed8c, type: 3}
   m_PrefabInstance: {fileID: 3698941267983243190}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3755484750008584553
@@ -163,60 +1315,640 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 2991896912978869755}
     m_Modifications:
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 2569406408175044234, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+      propertyPath: m_InteractableSource
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: -0.432
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4257412417454173071, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    - target: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257412417454173071, guid: 98e95130197fe634e9d392c553954f10, type: 3}
       propertyPath: m_Name
       value: Interactable Velocity Tapered Cylinder
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+    m_RemovedComponents:
+    - {fileID: 4257412417454173058, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4257412417454173071, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 985183506127810085}
+    - targetCorrespondingSourceObject: {fileID: 4257412417454173071, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5033613864507843224}
+    - targetCorrespondingSourceObject: {fileID: 4257412417454173071, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1666599601215996934}
+  m_SourcePrefab: {fileID: 100100000, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+--- !u!1 &1084091470699946726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4257412417454173071, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+  m_PrefabInstance: {fileID: 3755484750008584553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &985183506127810085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084091470699946726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1f68202d5742542b338710df452d6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Caskev.NetcodeForXRInteractionToolkit.Runtime::Caskev.NetcodeForXRInteractionToolkit.XRGrabInteractableNetworkCompliant
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_AttachTransform: {fileID: 0}
+  m_SecondaryAttachTransform: {fileID: 0}
+  m_UseDynamicAttach: 0
+  m_MatchAttachPosition: 1
+  m_MatchAttachRotation: 1
+  m_SnapToColliderVolume: 1
+  m_ReinitializeDynamicAttachEverySingleGrab: 1
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_PredictedVisualsTransform: {fileID: 7735021177752283885}
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 8
+  m_TightenPosition: 0.1
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 8
+  m_TightenRotation: 0.1
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_StartingSingleGrabTransformers: []
+  m_StartingMultipleGrabTransformers: []
+  m_AddDefaultGrabTransformers: 1
+  m_FarAttachMode: 0
+  m_LimitLinearVelocity: 0
+  m_LimitAngularVelocity: 0
+  m_MaxLinearVelocityDelta: 10
+  m_MaxAngularVelocityDelta: 20
+--- !u!114 &5033613864507843224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084091470699946726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 599177213
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &1666599601215996934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084091470699946726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ec72c5004392440bc149258d927d1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Caskev.NetcodeForXRInteractionToolkit.Runtime::Caskev.NetcodeForXRInteractionToolkit.DistributedNetworkXRGrabInteractable
+  ShowTopMostFoldoutHeaderGroup: 1
+  _currentState: 0
+  _ownershipLockingOnGainPolicy: 0
+  _statesEvents:
+    _onStateChanged:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterNone:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitNone:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterAuthority:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitAuthority:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterRemote:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitRemote:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterRequesting:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitRequesting:
+      m_PersistentCalls:
+        m_Calls: []
+    _onEnterDeclining:
+      m_PersistentCalls:
+        m_Calls: []
+    _onExitDeclining:
+      m_PersistentCalls:
+        m_Calls: []
+  _ownershipEvents:
+    _events:
+      _crossSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _clientSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _serverSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+    _localEvents:
+      _crossSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _clientSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _serverSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+    _remoteEvents:
+      _crossSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _clientSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+      _serverSideEvents:
+        _onOwnershipGained:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLost:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipLocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipUnlocked:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRobbedFrom:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestRejected:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipRequestAccepted:
+          m_PersistentCalls:
+            m_Calls: []
+        _onOwnershipDeclined:
+          m_PersistentCalls:
+            m_Calls: []
+  _debugParameters:
+    _statesVerbose: 0
+    _ownershipVerbose: 0
+  _lockOwnershipOnTwoHandsGrabbing: 0
+  _activationChangeEvents:
+    _crossSideEvents:
+      _onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    _serverSideEvents:
+      _onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    _clientSideEvents:
+      _onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+  _activatedEvents:
+    _crossSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _serverSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _clientSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+  _deactivatedEvents:
+    _crossSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _serverSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    _clientSideEvents:
+      _onTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onLocalTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+      _onRemoteTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+  _automaticallyDeclineOnAsleep: 0
+  _onAsleep:
+    m_PersistentCalls:
+      m_Calls: []
+  _onAwake:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1084091470699946729 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4257412417454173056, guid: d5615d616019430d9c2e8727e71c97fb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4257412417454173056, guid: 98e95130197fe634e9d392c553954f10, type: 3}
+  m_PrefabInstance: {fileID: 3755484750008584553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7735021177752283885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6865308534320718724, guid: 98e95130197fe634e9d392c553954f10, type: 3}
   m_PrefabInstance: {fileID: 3755484750008584553}
   m_PrefabAsset: {fileID: 0}

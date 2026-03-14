@@ -150,6 +150,10 @@ namespace Caskev.NetcodeForXRInteractionToolkitSamples.DemoScene
                 _widthMultiplier.OnValueChanged += OnWidthMultiplierChanged;
                 _points.OnValueChanged += OnPointsUpdated;
                 _colorGradient.OnValueChanged += OnColorGradientUpdated;
+                OnEnableChanged(_enabled.Value, _enabled.Value);
+                OnWidthMultiplierChanged(_widthMultiplier.Value, _widthMultiplier.Value);
+                OnPointsUpdated(_points.Value, _points.Value);
+                OnColorGradientUpdated(_colorGradient.Value, _colorGradient.Value);
             }
         }
 

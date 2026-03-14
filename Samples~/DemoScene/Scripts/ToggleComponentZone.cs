@@ -1,6 +1,7 @@
 using System.Collections.Generic;
+using UnityEngine;
 
-namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+namespace Caskev.NetcodeForXRInteractionToolkitSamples.DemoScene
 {
     /// <summary>
     /// This component is designed to easily toggle a specific component and GameObject on or off when an object

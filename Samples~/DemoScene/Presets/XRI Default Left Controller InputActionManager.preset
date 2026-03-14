@@ -9,7 +9,7 @@ Preset:
   m_Name: XRI Default Left Controller InputActionManager
   m_TargetType:
     m_NativeTypeID: 114
-    m_ManagedTypePPtr: {fileID: 11500000, guid: f9ac216f0eb04754b1d938aac6380b31, type: 3}
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 7fffe753109270045aace2a77ecffc44, type: 3}
     m_ManagedTypeFallback: 
   m_Properties:
   - target: {fileID: 0}
@@ -39,27 +39,27 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_TeleportMode
     value: 
-    objectReference: {fileID: 1263111715868034790, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    objectReference: {fileID: 1263111715868034790, guid: 2005405c17537074aa4d06a3dc18f662, type: 3}
   - target: {fileID: 0}
     propertyPath: m_TeleportModeCancel
     value: 
-    objectReference: {fileID: 737890489006591557, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    objectReference: {fileID: 737890489006591557, guid: 2005405c17537074aa4d06a3dc18f662, type: 3}
   - target: {fileID: 0}
     propertyPath: m_Turn
     value: 
-    objectReference: {fileID: 1010738217276881514, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    objectReference: {fileID: 1010738217276881514, guid: 2005405c17537074aa4d06a3dc18f662, type: 3}
   - target: {fileID: 0}
     propertyPath: m_SnapTurn
     value: 
-    objectReference: {fileID: -7374733323251553461, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    objectReference: {fileID: -7374733323251553461, guid: 2005405c17537074aa4d06a3dc18f662, type: 3}
   - target: {fileID: 0}
     propertyPath: m_Move
     value: 
-    objectReference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    objectReference: {fileID: 6972639530819350904, guid: 2005405c17537074aa4d06a3dc18f662, type: 3}
   - target: {fileID: 0}
     propertyPath: m_UIScroll
     value: 
-    objectReference: {fileID: 2464016903823916871, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    objectReference: {fileID: 2464016903823916871, guid: 2005405c17537074aa4d06a3dc18f662, type: 3}
   - target: {fileID: 0}
     propertyPath: m_SmoothMotionEnabled
     value: 1

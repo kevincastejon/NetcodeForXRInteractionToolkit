@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: db3e7b7c8db355e499429545071a0321, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d4155a1a74860f847b442520b51e7ca2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5715416335250216647}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07b3638c2f5db5b479ff24c2859713d4, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f2e58a99ffb8194fa62723a6be0b998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_PokeFollowTransform: {fileID: 5715416335474355518}
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5715416335250216647}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb280e627cedda749b93045b8dd8d327, type: 3}
+  m_Script: {fileID: 11500000, guid: f9f36e07d27a0a045a223bdd3fa924ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OnColor: {r: 0.1254902, g: 0.5882353, b: 0.9529412, a: 1}
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e45f8f823c093d941855bb23b53b9414, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2037d92f2218d594cab25cccf89f5769, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

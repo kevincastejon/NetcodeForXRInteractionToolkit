@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Utilities;
 
-namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+namespace Caskev.NetcodeForXRInteractionToolkitSamples.DemoScene
 {
     /// <summary>
     /// Behavior with an API for spawning objects from a given set of prefabs.
@@ -220,7 +221,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
                 }
             }
 
-            var objectIndex = isSpawnOptionRandomized ? Random.Range(0, m_ObjectPrefabs.Count) : m_SpawnOptionIndex;
+            var objectIndex = isSpawnOptionRandomized ? UnityEngine.Random.Range(0, m_ObjectPrefabs.Count) : m_SpawnOptionIndex;
             var newObject = Instantiate(m_ObjectPrefabs[objectIndex]);
             if (m_SpawnAsChildren)
                 newObject.transform.parent = transform;
@@ -235,7 +236,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
 
             if (m_ApplyRandomAngleAtSpawn)
             {
-                var randomRotation = Random.Range(-m_SpawnAngleRange, m_SpawnAngleRange);
+                var randomRotation = UnityEngine.Random.Range(-m_SpawnAngleRange, m_SpawnAngleRange);
                 newObject.transform.Rotate(Vector3.up, randomRotation);
             }
 

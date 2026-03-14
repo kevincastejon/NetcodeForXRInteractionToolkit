@@ -1,6 +1,6 @@
 {
-    "name": "Caskev.NetcodeForXRInteractionToolkitSamples.Runtime",
-    "rootNamespace": "Caskev.NetcodeForXRInteractionToolkitSamples",
+    "name": "Caskev.NetcodeForXRInteractionToolkitSamples",
+    "rootNamespace": "",
     "references": [
         "Unity.InputSystem",
         "Unity.Mathematics",
@@ -8,10 +8,10 @@
         "Unity.XR.Interaction.Toolkit",
         "Unity.XR.OpenXR",
         "Unity.Netcode.Runtime",
+        "Unity.Collections",
         "Unity.TextMeshPro",
         "Caskev.NetcodeForGameObjects.DistributedAuthority.Runtime",
-        "Caskev.NetcodeForXRInteractionToolkit.Runtime",
-        "Unity.Collections"
+        "Caskev.NetcodeForXRInteractionToolkit.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

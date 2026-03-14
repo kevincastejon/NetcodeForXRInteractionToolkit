@@ -1,4 +1,6 @@
-namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+using UnityEngine;
+
+namespace Caskev.NetcodeForXRInteractionToolkitSamples.DemoScene
 {
     /// <summary>
     /// Destroys the GameObject it is attached to after a specified amount of time.
