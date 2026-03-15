@@ -1,0 +1,18 @@
+{
+    "name": "Caskev.NetcodeForXRInteractionToolkit.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3df5fe5c26dd0df4caa731f33ad53af1",
+        "GUID:b187d636947610f46b72dba38bad7227",
+        "GUID:1491147abca9d7d4bb7105af628b223e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
