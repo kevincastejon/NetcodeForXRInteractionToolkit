@@ -77,6 +77,8 @@ namespace Caskev.NetcodeForXRInteractionToolkit
             return allowSelect;
         }
     }
+    [RequireComponent(typeof(Rigidbody))]
+    [RequireComponent(typeof(NetworkTransform))]
     [RequireComponent(typeof(XRGrabInteractableNetworkCompliant))]
     [GenerateSerializationForType(typeof(XRGrabInteractableData))]
     public class DistributedNetworkXRGrabInteractable : DistributedNetworkObject<XRGrabInteractableData>
