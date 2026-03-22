@@ -27,8 +27,6 @@ namespace Caskev.NetcodeForXRInteractionToolkit
         }
         protected override void Grab()
         {
-            //base.Grab();
-            //transform.SetParent(_parent);
         }
         protected override void Drop()
         {
